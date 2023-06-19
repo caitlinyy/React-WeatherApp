@@ -62,3 +62,19 @@ const CITIES = [
   { name: 'Adelaide', lat: -34.9281805, lon: 138.5999312 },
   { name: 'Darwin', lat: -12.46044, lon: 130.8410469 }
 ]
+
+
+1.Readable，Maintainable， Reusable
+2.SOLID
+3.Component，Declarative
+4.React 哲学
+5.肌肉记忆
+ - 责任划分组件
+ - 组建名称重复就有可能复用
+ - UI变化对应着 state
+ - API 请求对应着 effect
+ - 父传子 Props，子传父 State lifting，兄弟相传 State lifting
+6.不要 Copy Paste6.
+7.不要写 if else
+8.不要过度设计
+9.就近维护原则
